@@ -6,7 +6,7 @@ public class BotContext {
     private final ChatBot bot;
     private final User user;
     private final String input;
-
+//context added
     public static BotContext of(ChatBot bot, User user, String text) {
         return new BotContext(bot, user, text);
     }
